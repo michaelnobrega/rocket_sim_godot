@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bnhjubvoxkrui"]
+
+[ext_resource type="Script" uid="uid://cmkp5fgbxrf7o" path="res://scenes/hud_node.gd" id="1_ahhtf"]
+
+[node name="HUD" type="Control" unique_id=1320363262]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ahhtf")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1114573111]
+custom_minimum_size = Vector2(200, 500)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 0.19607843)
+
+[node name="TelemetryLabel" type="Label" parent="." unique_id=93201934]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 50.0
+offset_bottom = 33.0
+theme_override_font_sizes/font_size = 14

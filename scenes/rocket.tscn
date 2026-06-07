@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://bvm6wy7fhrnlt"]
+
+[ext_resource type="Script" uid="uid://dm2ik5ldfeukv" path="res://scenes/rocket_node.gd" id="1_8kmw3"]
+[ext_resource type="Texture2D" uid="uid://mfjyj5thn3c8" path="res://assets/sprites/rocket/rocket.svg" id="2_m1h3n"]
+[ext_resource type="Texture2D" uid="uid://bax4o3vn1r8om" path="res://assets/sprites/exhaust/flame_high_frame0.svg" id="3_1nvrn"]
+[ext_resource type="Texture2D" uid="uid://dpprxrybvl0pr" path="res://assets/sprites/exhaust/flame_high_frame1.svg" id="4_hhimn"]
+[ext_resource type="Texture2D" uid="uid://lj6o6fqhwmwc" path="res://assets/sprites/exhaust/flame_high_frame2.svg" id="5_t2h4l"]
+[ext_resource type="Texture2D" uid="uid://bgu7ha37e36sn" path="res://assets/sprites/exhaust/flame_high_frame3.svg" id="6_ctxcg"]
+[ext_resource type="Texture2D" uid="uid://bdqghxk48x68d" path="res://assets/sprites/exhaust/flame_high_frame4.svg" id="7_fv27l"]
+[ext_resource type="Texture2D" uid="uid://dpfkyq8rxrpwi" path="res://assets/sprites/exhaust/flame_high_frame5.svg" id="8_hfp0j"]
+[ext_resource type="Texture2D" uid="uid://dsc82d6phoa4f" path="res://assets/sprites/exhaust/flame_high_frame6.svg" id="9_v4kfl"]
+[ext_resource type="Texture2D" uid="uid://d2330swdbyywt" path="res://assets/sprites/exhaust/flame_high_frame7.svg" id="10_kj6ia"]
+[ext_resource type="Texture2D" uid="uid://sapm46immxbc" path="res://assets/sprites/exhaust/flame_low_frame0.svg" id="11_nc0eb"]
+[ext_resource type="Texture2D" uid="uid://banj4wesjyfui" path="res://assets/sprites/exhaust/flame_low_frame1.svg" id="12_kilgm"]
+[ext_resource type="Texture2D" uid="uid://oofetbt6jjk7" path="res://assets/sprites/exhaust/flame_low_frame2.svg" id="13_aepbx"]
+[ext_resource type="Texture2D" uid="uid://bhost4tb5o6mk" path="res://assets/sprites/exhaust/flame_low_frame3.svg" id="14_67e1i"]
+[ext_resource type="Texture2D" uid="uid://cq8ua7hx7bmj7" path="res://assets/sprites/exhaust/flame_low_frame4.svg" id="15_2g2pb"]
+[ext_resource type="Texture2D" uid="uid://b12igsm2gallb" path="res://assets/sprites/exhaust/flame_low_frame5.svg" id="16_mc5fo"]
+[ext_resource type="Texture2D" uid="uid://bi35l3i32gyf5" path="res://assets/sprites/exhaust/flame_low_frame6.svg" id="17_mu35r"]
+[ext_resource type="Texture2D" uid="uid://chwk7ybs6km40" path="res://assets/sprites/exhaust/flame_low_frame7.svg" id="18_8gcyb"]
+[ext_resource type="Texture2D" uid="uid://dvoig6qir88s5" path="res://assets/sprites/exhaust/flame_medium_frame0.svg" id="19_dm57o"]
+[ext_resource type="Texture2D" uid="uid://6jjm54wqjrpq" path="res://assets/sprites/exhaust/flame_medium_frame1.svg" id="20_n3elt"]
+[ext_resource type="Texture2D" uid="uid://c7v7m5pg13jkn" path="res://assets/sprites/exhaust/flame_medium_frame2.svg" id="21_txtmf"]
+[ext_resource type="Texture2D" uid="uid://3l2r3i8yrmcq" path="res://assets/sprites/exhaust/flame_medium_frame3.svg" id="22_10ehy"]
+[ext_resource type="Texture2D" uid="uid://ck5jpt0aqgibk" path="res://assets/sprites/exhaust/flame_medium_frame4.svg" id="23_udak0"]
+[ext_resource type="Texture2D" uid="uid://67f5sd8jqf6j" path="res://assets/sprites/exhaust/flame_medium_frame5.svg" id="24_e06yc"]
+[ext_resource type="Texture2D" uid="uid://s3bimi6ehw58" path="res://assets/sprites/exhaust/flame_medium_frame6.svg" id="25_fts8b"]
+[ext_resource type="Texture2D" uid="uid://cc7e0k231fl3o" path="res://assets/sprites/exhaust/flame_medium_frame7.svg" id="26_rcgpn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1nvrn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_1nvrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hhimn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_t2h4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ctxcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fv27l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_hfp0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_v4kfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_kj6ia")
+}],
+"loop": true,
+"name": &"high",
+"speed": 70.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_nc0eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kilgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_aepbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_67e1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_2g2pb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_mc5fo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mu35r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8gcyb")
+}],
+"loop": true,
+"name": &"low",
+"speed": 50.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_dm57o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_n3elt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_txtmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_10ehy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_udak0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_e06yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_fts8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_rcgpn")
+}],
+"loop": true,
+"name": &"medium",
+"speed": 50.0
+}]
+
+[node name="Rocket" type="Node2D" unique_id=2093459444]
+script = ExtResource("1_8kmw3")
+
+[node name="RocketSprite" type="Sprite2D" parent="." unique_id=1340423573]
+position = Vector2(0, -610)
+texture = ExtResource("2_m1h3n")
+
+[node name="Exhaust" type="AnimatedSprite2D" parent="." unique_id=347179359]
+position = Vector2(0, 400)
+sprite_frames = SubResource("SpriteFrames_1nvrn")
+animation = &"high"

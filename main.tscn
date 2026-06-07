@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c42l206sxi2qd"]
+
+[ext_resource type="Script" uid="uid://cc3dclbpn35k" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://crg0i1ya8rp4b" path="res://scenes/camera_node.gd" id="2_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=1617027635]
+script = ExtResource("1_ig7tw")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=454731754]
+position = Vector2(-1, 0)
+ignore_rotation = false
+script = ExtResource("2_0xm2m")
+
+[node name="UILayer" type="CanvasLayer" parent="." unique_id=1343215389]
+layer = 10

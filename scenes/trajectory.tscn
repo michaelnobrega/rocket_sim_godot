@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dkkxm8ell38gu"]
+
+[ext_resource type="Script" uid="uid://by31846h5ltd0" path="res://scenes/trajectory_node.gd" id="1_n6m0v"]
+
+[node name="Trajectory" type="Node2D" unique_id=1520335218]
+script = ExtResource("1_n6m0v")

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dlsapbys1eets"]
+
+[ext_resource type="Script" uid="uid://brun4ikhci400" path="res://scenes/earth_node.gd" id="1_afhwv"]
+[ext_resource type="Texture2D" uid="uid://dt24q44tum223" path="res://assets/sprites/earth/atmosphere.svg" id="2_2umt7"]
+
+[node name="Earth" type="Node2D" unique_id=1694676405]
+script = ExtResource("1_afhwv")
+
+[node name="Atmosphere" type="Sprite2D" parent="." unique_id=1569587364]
+texture = ExtResource("2_2umt7")

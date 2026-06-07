@@ -1,0 +1,28 @@
+# Godot generated files
+.godot/
+*.translation
+
+# Import cache
+.import/
+
+# Export
+export/
+export_presets.cfg
+
+# Mono/C# specific
+.mono/
+data_*/
+mono_crash.*.json
+
+# VS Code
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
